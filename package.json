@@ -1,0 +1,17 @@
+{
+  "name": "timesheet-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "updateBrowser": "npx playwright install",
+    "testChrome": "npx playwright test --project=chrome"
+  },
+  "keywords": [],
+  "author": "Auntor Acharja",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0"
+  }
+}
